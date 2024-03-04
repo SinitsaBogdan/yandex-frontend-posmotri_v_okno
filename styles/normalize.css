@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+	width: 0;
+}
+
+html {
+	block-size: 100%;
+}
+
+.page {
+	margin: auto;
+	color: #fff;
+	font-family: 'Fira Sans Condensed', sans-serif;
+	font-size: 18px;
+	background-color: #1b1919;
+	inline-size: 1200px;
+	block-size: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+blockquote,
+fieldset {
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+input {
+	box-sizing: inherit;
+}

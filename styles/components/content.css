@@ -1,0 +1,76 @@
+.content {
+	display: flex;
+	justify-content: end;
+	column-gap: 30px;
+	max-height: 534px;
+}
+
+.content__details {
+	overflow-y: scroll;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.content__accent {
+	color: #545050;
+	background-color: #1b1919;
+}
+
+.content__list-item:not(:last-child) {
+	margin-bottom: 32px;
+}
+
+.content__card-link {
+	color: white;
+	text-decoration: none;
+}
+
+.content__card-link:focus {
+	display: block;
+	outline: 1px solid #fff;
+	outline-offset: -1px;
+}
+
+.content__card-link:active {
+	display: block;
+	background-color: #545050;
+}
+
+.content__card-link:hover {
+	text-decoration: underline;
+}
+
+.content__card-link_current {
+	display: block;
+	background-color: #545050;
+}
+
+.content__video-card {
+	display: flex;
+	justify-content: space-between;
+	align-items: start;
+	column-gap: 6px;
+}
+
+.content__video-card-description-container {
+	display: flex;
+	flex-direction: column;
+	row-gap: 6px;
+	width: 100%;
+}
+
+.content__video-card-title {
+	font-family: Oswald;
+	font-weight: 700;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.content__video-card-description {
+	font-weight: 400;
+	line-height: 16.2px;
+}
+
+.content__video-card-thumbnail {
+	max-width: 194px;
+}

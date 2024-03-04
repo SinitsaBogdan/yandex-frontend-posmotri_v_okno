@@ -1,0 +1,6 @@
+@import url(./global.css);
+@import url(./components/search.css);
+@import url(./components/content.css);
+@import url(./components/result.css);
+@import url(./preloader.css);
+@import url(./error.css);

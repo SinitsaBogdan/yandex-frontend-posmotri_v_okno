@@ -1,0 +1,50 @@
+input {
+	cursor: pointer;
+}
+
+.button {
+	width: 100%;
+	border: 1px solid #fff;
+	padding: 6px 73.5px;
+	color: inherit;
+	font-family: 'Fira Sans Condensed';
+	font-weight: 700;
+	font-size: 18px;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.button:active {
+	background-color: #545050;
+}
+
+.page {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: auto;
+}
+
+.title {
+	position: sticky;
+	top: 0;
+	padding-bottom: 26px;
+	font-family: Oswald;
+	font-size: 75px;
+	line-height: 62px;
+	background-color: #1b1919;
+}
+
+.more-button {
+	margin-bottom: 1px;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	white-space: nowrap;
+}
