@@ -1,0 +1,29 @@
+{
+	"name": "trmplate-frontend",
+	"version": "1.0.0",
+	"description": "Базовый шаблон для инициализации Frontend проектов",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo Привет!",
+		"lint": "stylelint '**/*.{css,scss}'",
+		"lintfix": "stylelint '**/*.{css,scss}' --fix",
+		"check": "prettier --check './**/*.{html,css,js,jsx,scss}'",
+		"format": "prettier --write './**/*.{html,css,js,jsx,scss}'",
+		"checkAll": "npm run check && npm run lint",
+		"fixAll": "npm run format && npm run lintfix"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/SinitsaBogdan/template-frontend.git"
+	},
+	"author": "Синица Богдан [ ABSTRACT ]",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/SinitsaBogdan/template-frontend/issues"
+	},
+	"homepage": "https://github.com/SinitsaBogdan/template-frontend#readme",
+	"dependencies": {
+		"prettier": "^3.2.5",
+		"stylelint": "^16.2.1"
+	}
+}
