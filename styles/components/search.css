@@ -1,7 +1,7 @@
 .search-form {
 	display: grid;
 	justify-content: space-between;
-	grid-template: 1fr / 32% 30% 27%;
+	grid-template: 1fr / 31.6% 30% 27.4%;
 }
 
 .search-form__fieldset {
@@ -29,7 +29,7 @@
 	outline-offset: 2px;
 }
 
-.search-form__label-text:hover {
+.search-form__label:hover .search-form__label-text {
 	text-decoration: underline;
 }
 
@@ -41,7 +41,7 @@
 	border-right: 1px solid transparent;
 	border-bottom: 1px solid currentColor;
 	border-left: 1px solid transparent;
-	padding: 2.5px 4px;
+	padding: 2.5px 0;
 	color: currentColor;
 	font-family: inherit;
 	font-size: inherit;
@@ -62,8 +62,8 @@
 
 .search-form__checkbox-list {
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
+	column-gap: 16px;
 }
 
 .search-form__pseudo-checkbox {

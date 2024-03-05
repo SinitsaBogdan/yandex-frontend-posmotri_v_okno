@@ -29,8 +29,10 @@ input {
 
 .title {
 	font-family: Oswald, Arial, Helvetica, sans-serif;
-	font-size: 75px;
-	line-height: 62px;
+	font-size: 76px;
+	line-height: 0.94;
+	letter-spacing: -1px;
+	text-transform: uppercase;
 	background-color: transparent;
 }
 
@@ -42,22 +44,4 @@ input {
 	clip: rect(0 0 0 0);
 	clip-path: inset(50%);
 	white-space: nowrap;
-}
-
-.content__list::-webkit-scrollbar {
-	width: 12px;
-}
-
-.content__list::-webkit-scrollbar-track {
-	background: currentColor;
-}
-
-.content__list::-webkit-scrollbar-thumb {
-	border: 3px solid currentColor;
-	background-color: #1b1919;
-}
-
-.content__list {
-	scrollbar-width: thin;
-	scrollbar-color: #1b1919 currentColor;
 }
