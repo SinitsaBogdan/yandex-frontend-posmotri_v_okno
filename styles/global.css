@@ -4,10 +4,10 @@ input {
 
 .button {
 	width: 100%;
-	border: 1px solid #fff;
+	border: 1px solid currentColor;
 	padding: 6px 73.5px;
 	color: inherit;
-	font-family: 'Fira Sans Condensed';
+	font-family: 'Fira Sans Condensed', Arial, Helvetica, sans-serif;
 	font-weight: 700;
 	font-size: 18px;
 	background-color: transparent;
@@ -18,25 +18,20 @@ input {
 	background-color: #545050;
 }
 
-.page {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	overflow: auto;
+.button:hover {
+	text-decoration: underline;
+}
+
+.button:focus {
+	outline: 1px solid #fff;
+	outline-offset: -3px;
 }
 
 .title {
-	position: sticky;
-	top: 0;
-	padding-bottom: 26px;
-	font-family: Oswald;
+	font-family: Oswald, Arial, Helvetica, sans-serif;
 	font-size: 75px;
 	line-height: 62px;
-	background-color: #1b1919;
-}
-
-.more-button {
-	margin-bottom: 1px;
+	background-color: transparent;
 }
 
 .visually-hidden {
@@ -47,4 +42,22 @@ input {
 	clip: rect(0 0 0 0);
 	clip-path: inset(50%);
 	white-space: nowrap;
+}
+
+.content__list::-webkit-scrollbar {
+	width: 12px;
+}
+
+.content__list::-webkit-scrollbar-track {
+	background: currentColor;
+}
+
+.content__list::-webkit-scrollbar-thumb {
+	border: 3px solid currentColor;
+	background-color: #1b1919;
+}
+
+.content__list {
+	scrollbar-width: thin;
+	scrollbar-color: #1b1919 currentColor;
 }
